@@ -59,6 +59,7 @@ const JewelleryShowcase = () => {
               autoPlay
               muted
               loop
+              controls
               playsInline
             />
           </div>
