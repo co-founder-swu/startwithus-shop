@@ -23,7 +23,7 @@ const JewelleryShowcase = () => {
           <div className="w-full mb-6 md:hidden flex justify-center items-center">
             <div className="w-[300px] h-[440px] overflow-hidden rounded-xl shadow-lg bg-black">
               <video
-                src="src/assets/video1.mp4"
+                src={video1}
                 className="w-full h-full object-cover"
                 autoPlay
                 muted
@@ -45,16 +45,26 @@ const JewelleryShowcase = () => {
             <li>Affordable & scalable</li>
           </ul>
 
-          <Button href="#pricing" className="w-fit">
-            Learn More
-          </Button>
+          {/* Buttons in one line */}
+          <div className="flex flex-wrap gap-4 mt-6">
+            <Button href="/blogs/transform-your-jewellery-brand-along-hyper-realistic-ai-model-photography" className="w-fit">
+              Learn More
+            </Button>
+            <Button
+              href="https://startwithus.notion.site/1d023ad8484f80e0ac4bd9e1b9376db7?pvs=105"
+              className="w-fit"
+              white
+            >
+              Get It Now
+            </Button>
+          </div>
         </div>
 
         {/* Right side - Desktop video */}
         <div className="w-full md:w-1/2 hidden md:flex justify-center items-center">
           <div className="w-[360px] h-[520px] overflow-hidden rounded-xl shadow-lg bg-black">
             <video
-              src= {video1}
+              src={video1}
               className="w-full h-full object-cover"
               autoPlay
               muted
