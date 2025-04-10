@@ -59,5 +59,7 @@ import notification5 from "../assets/notification/notification5.png";
 import notification6 from "../assets/notification/notification6.png";
 import notification7 from "../assets/notification/notification7.png";
 
-export {startwithus, heroBackground, check, loading1, play, gradient, grid, grid2, grid3, searchMd, plusSquare, loading, background, robot, ring, BP1Intro, BP2Intro, BP3Intro, jewellerythumbnail, rings, earrings, bracelet, pendent, service2, service3, service4, service5, service6, service7, service8, service9, service10, service11, service12, service13, lines, stars, roadmap1, roadmap2, roadmap3, roadmap4, roadmap5, notification1, notification2, notification3, notification4, notification5, notification6, notification7, ts18, ts19, ts20, };
+import video1 from "../assets/video1.mp4";
+
+export {video1, startwithus, heroBackground, check, loading1, play, gradient, grid, grid2, grid3, searchMd, plusSquare, loading, background, robot, ring, BP1Intro, BP2Intro, BP3Intro, jewellerythumbnail, rings, earrings, bracelet, pendent, service2, service3, service4, service5, service6, service7, service8, service9, service10, service11, service12, service13, lines, stars, roadmap1, roadmap2, roadmap3, roadmap4, roadmap5, notification1, notification2, notification3, notification4, notification5, notification6, notification7, ts18, ts19, ts20, };
 

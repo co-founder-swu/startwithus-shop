@@ -1,6 +1,7 @@
 import React from 'react';
 import Section from '../Section';
 import Button from '../Button';
+import { video1 } from '../../assets';
 
 const JewelleryShowcase = () => {
   return (
@@ -53,7 +54,7 @@ const JewelleryShowcase = () => {
         <div className="w-full md:w-1/2 hidden md:flex justify-center items-center">
           <div className="w-[360px] h-[520px] overflow-hidden rounded-xl shadow-lg bg-black">
             <video
-              src="src/assets/video1.mp4"
+              src= {video1}
               className="w-full h-full object-cover"
               autoPlay
               muted
