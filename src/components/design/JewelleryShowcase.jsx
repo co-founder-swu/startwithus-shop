@@ -47,7 +47,7 @@ const JewelleryShowcase = () => {
 
           {/* Buttons in one line */}
           <div className="flex flex-wrap gap-4 mt-6">
-            <Button href="/blogs/transform-your-jewellery-brand-along-hyper-realistic-ai-model-photography" className="w-fit">
+            <Button href="https://www.startwithus.shop/blogs/transform-your-jewellery-brand-along-hyper-realistic-ai-model-photography" className="w-fit">
               Learn More
             </Button>
             <Button
