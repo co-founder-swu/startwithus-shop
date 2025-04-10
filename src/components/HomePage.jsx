@@ -10,6 +10,7 @@ import StarsCanvas from './canvas/Stars'; // Adjust import path if necessary
 import StartWithUs from './StartWithUs';
 import Approach from './HowWeDoIt';
 import Contact from './Contact';
+import JewelleryShowcase from './design/JewelleryShowcase';
 
 const HomePage = () => {
   const [showRequestQuote, setShowRequestQuote] = useState(false);
@@ -27,6 +28,7 @@ const HomePage = () => {
           <StartWithUs id="about" />
           <Approach/>
           <Services id="services"/>
+          <JewelleryShowcase id="jewellery"/>
           <Pricing id="pricing"/>
           <Contact id="contact"/>
           {showRequestQuote && (

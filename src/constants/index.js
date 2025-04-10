@@ -17,6 +17,7 @@ import {
   BP1Intro,
   BP2Intro,
   BP3Intro,
+  jewellerythumbnail,
 } from "../assets";
 
 export const navigation = [
@@ -143,25 +144,32 @@ export const pricing = [
 
 export const blogList = [
   {
-    id: 1,
+    id: "strong-online-presence-business-success",
     date: "2024-07-20",
     title: "The Importance of a Strong Online Presence for Business Success",
     summary: "In today's digital landscape, a strong online presence is essential for business success. Enhancing visibility, engagement, and brand credibility drives growth and customer satisfaction. At Start With Us, we create compelling digital strategies to help businesses thrive online.",
     imageUrl: BP1Intro,
   },
   {
-    id: 2,
+    id: "custom-web-solutions-to-boost-business",
     date: "2024-07-20",
     title: "How Custom Web Solution Boost Your Business",
     summary: "Custom web solutions drive business growth by offering tailored user experiences, enhanced brand identity, and scalability. They ensure optimal performance, security, and SEO. At Start With Us, we create bespoke websites that provide a competitive edge and foster customer loyalty.",
     imageUrl: BP2Intro,
   },
   {
-    id: 3,
+    id: "branding-to-build-customer-loyalty",
     date: "2024-07-21",
     title: "The Role of Branding in Building Customer Loyalty",
     summary: "Effective branding builds customer loyalty through emotional connections, consistency, and clear values. It sets businesses apart and symbolizes quality. At Start With Us, we help craft strong brands that drive lasting success.",
     imageUrl: BP3Intro,
+  },
+    {
+    id: "transform-your-jewellery-brand-along-hyper-realistic-ai-model-photography",
+    date: "2025-04-09",
+    title: " Transform Your Jewellery Brand with Hyper-Realistic AI Model Photography",
+    summary: "Discover how AI model photography is revolutionizing jewellery branding by replacing costly photoshoots with hyper-realistic visuals. It offers faster turnaround, lower costs, and endless styling options to showcase your products beautifully. Perfect for emerging brands looking to elevate their online presence without breaking the bank.",
+    imageUrl:jewellerythumbnail,
   },
   // Add more blog entries as needed
 ];
